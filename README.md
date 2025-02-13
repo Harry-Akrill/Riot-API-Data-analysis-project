@@ -19,41 +19,28 @@ Provides an easy-to-use workflow for tracking player performance.
 To run this project, ensure you have the following installed:
 
 Python 3.x
-
 Riot Games Developer API Key
-
 Google Sheets API credentials
 
-Required Python libraries:
+### Required Python libraries:
 
 pip install requests pandas gspread oauth2client
 
 ## Setup
 
-Obtain a Riot Games API Key
+### Obtain a Riot Games API Key
 
 Visit the Riot Games Developer Portal.
-
 Sign up or log in to get an API key.
-
 Note that API keys expire periodically, so you may need to refresh it.
 
-Set Up Google Sheets API
+### Set Up Google Sheets API
 
 Follow the Google Sheets API Quickstart.
-
 Create a Google Cloud project and enable the Google Sheets API.
-
 Download the credentials.json file and place it in the project directory.
-
 Configure Environment Variables
-
 Store your Riot API key and Google Sheets credentials securely.
-
-Example using a .env file:
-
-RIOT_API_KEY=your_api_key_here
-GOOGLE_SHEETS_CREDENTIALS=path_to_credentials.json
 
 ## Usage
 
