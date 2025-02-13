@@ -1,10 +1,10 @@
-#Riot Games Data Analysis Project
+# Riot Games Data Analysis Project
 
-Overview
+## Overview
 
 This project utilizes the Riot Games Developer API to extract game data for individual players, filters the data based on specific criteria, and imports the processed data into Google Sheets for further analysis.
 
-Features
+## Features
 
 Pulls match history and player statistics using the Riot Games API.
 
@@ -14,7 +14,7 @@ Automates the export of cleaned data to Google Sheets.
 
 Provides an easy-to-use workflow for tracking player performance.
 
-Requirements
+## Requirements
 
 To run this project, ensure you have the following installed:
 
@@ -28,7 +28,7 @@ Required Python libraries:
 
 pip install requests pandas gspread oauth2client
 
-Setup
+## Setup
 
 Obtain a Riot Games API Key
 
@@ -55,7 +55,7 @@ Example using a .env file:
 RIOT_API_KEY=your_api_key_here
 GOOGLE_SHEETS_CREDENTIALS=path_to_credentials.json
 
-Usage
+## Usage
 
 Run the script to fetch and filter data
 
